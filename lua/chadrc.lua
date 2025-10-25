@@ -7,7 +7,7 @@ local M = {}
 
 M.base46 = {
     theme = "one_light",
-    changed_themes = { "one_light", "doomchad" },
+    theme_toggle = { "one_light", "doomchad" },
     transparency = true,
     hl_override = {
         Comment = {
