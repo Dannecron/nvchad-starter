@@ -6,17 +6,18 @@
 local M = {}
 
 M.base46 = {
-    theme = "one_light",
-    theme_toggle = { "one_light", "doomchad" },
-    transparency = true,
-    hl_override = {
-        Comment = {
-            italic = true,
-        },
-    },
-    hl_add = {
-      NvimTreeOpenedFolderName = { fg = "green", bold = true },
-    },
+  theme = "one_light",
+  theme_toggle = { "one_light", "doomchad" },
+  transparency = true,
+  hl_override = {
+      Comment = {
+          italic = true,
+      },
+  },
+  hl_add = {
+    NvimTreeOpenedFolderName = { fg = "green", bold = true },
+  },
+  integrations = { 'render-markdown' },
 }
 
 return M

@@ -13,12 +13,22 @@ return {
     end,
   },
   {
-      "mistweaverco/kulala.nvim",
-      ft = {"http", "rest"},
-      opts = {
-        global_keymaps = true,
-        global_keymaps_prefix = "<leader>k",
-        kulala_keymaps_prefix = "",
-      },
+    "mistweaverco/kulala.nvim",
+    ft = {"http", "rest"},
+    opts = {
+      global_keymaps = true,
+      global_keymaps_prefix = "<leader>k",
+      kulala_keymaps_prefix = "",
     },
+  },
+  {
+    'MeanderingProgrammer/render-markdown.nvim',
+    dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-mini/mini.icons' },        -- if you use standalone mini plugins
+    ft = { "markdown", "vimwiki" },
+    ---@module 'render-markdown'
+    ---@type render.md.UserConfig
+    opts = {
+      render_modes = { 'n', 'c', 't' },
+    },
+  }
 }
