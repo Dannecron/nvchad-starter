@@ -20,4 +20,6 @@ M.base46 = {
   integrations = { 'render-markdown' },
 }
 
+M.sizes = { vsp = 0.4 }
+
 return M
