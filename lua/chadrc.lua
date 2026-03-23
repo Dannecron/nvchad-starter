@@ -20,6 +20,8 @@ M.base46 = {
   integrations = { 'render-markdown' },
 }
 
-M.sizes = { vsp = 0.4 }
+M.term = {
+  sizes = { vsp = 0.3, ["bo vsp"] = 0.3 }
+}
 
 return M
