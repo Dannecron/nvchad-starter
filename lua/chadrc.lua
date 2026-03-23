@@ -21,7 +21,7 @@ M.base46 = {
 }
 
 M.term = {
-  sizes = { vsp = 0.3, ["bo vsp"] = 0.3 }
+  sizes = { vsp = 0.4, ["bo vsp"] = 0.4 }
 }
 
 return M
